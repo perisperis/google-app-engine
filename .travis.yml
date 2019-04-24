@@ -11,3 +11,5 @@ deploy:
   provider: gae
   keyfile: api-client-secret.json.enc
   project: perisdev
+  on:
+    all_branches: true
